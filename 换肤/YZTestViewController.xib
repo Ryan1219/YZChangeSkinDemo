@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YZTestViewController">
+            <connections>
+                <outlet property="carImageView" destination="wGQ-pC-aYL" id="sZi-FE-VWb"/>
+                <outlet property="faceImageView" destination="Ciy-LC-pbc" id="Gwx-6U-z5N"/>
+                <outlet property="heartImageView" destination="VRS-1u-fWI" id="ifx-nh-svh"/>
+                <outlet property="textLabel" destination="1dy-fE-R8a" id="MSb-1Q-bUn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ciy-LC-pbc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="axS-3u-tYe"/>
+                        <constraint firstAttribute="height" constant="100" id="gXM-mR-YMO"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="axS-3u-tYe"/>
+                            <exclude reference="gXM-mR-YMO"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="axS-3u-tYe"/>
+                            <include reference="gXM-mR-YMO"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wGQ-pC-aYL">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="K3T-L1-eV0"/>
+                        <constraint firstAttribute="height" constant="100" id="bYF-e4-c28"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="K3T-L1-eV0"/>
+                            <exclude reference="bYF-e4-c28"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="K3T-L1-eV0"/>
+                            <include reference="bYF-e4-c28"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VRS-1u-fWI">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="F6n-lh-1Hc"/>
+                        <constraint firstAttribute="width" constant="100" id="ld3-fV-UTN"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="F6n-lh-1Hc"/>
+                            <exclude reference="ld3-fV-UTN"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="F6n-lh-1Hc"/>
+                            <include reference="ld3-fV-UTN"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dy-fE-R8a">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="DZ7-Cu-yW8"/>
+                        <constraint firstAttribute="height" constant="30" id="mq5-4w-tke"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DZ7-Cu-yW8"/>
+                            <exclude reference="mq5-4w-tke"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="DZ7-Cu-yW8"/>
+                            <include reference="mq5-4w-tke"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ciy-LC-pbc" firstAttribute="top" secondItem="wGQ-pC-aYL" secondAttribute="bottom" constant="20" id="5cQ-SA-7dc"/>
+                <constraint firstItem="Ciy-LC-pbc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="EDz-Iq-RpE"/>
+                <constraint firstItem="1dy-fE-R8a" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PJh-QZ-sXc"/>
+                <constraint firstItem="VRS-1u-fWI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bLk-id-WiO"/>
+                <constraint firstItem="1dy-fE-R8a" firstAttribute="top" secondItem="VRS-1u-fWI" secondAttribute="bottom" constant="30" id="iHN-cS-QLl"/>
+                <constraint firstItem="wGQ-pC-aYL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tzr-9v-Xua"/>
+                <constraint firstItem="VRS-1u-fWI" firstAttribute="top" secondItem="Ciy-LC-pbc" secondAttribute="bottom" constant="30" id="xcV-a4-w8x">
+                    <variation key="widthClass=compact" constant="20"/>
+                </constraint>
+                <constraint firstItem="Ciy-LC-pbc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zAn-lm-30g"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Ciy-LC-pbc"/>
+                    <exclude reference="wGQ-pC-aYL"/>
+                    <exclude reference="VRS-1u-fWI"/>
+                    <exclude reference="1dy-fE-R8a"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="tzr-9v-Xua"/>
+                    <exclude reference="5cQ-SA-7dc"/>
+                    <exclude reference="EDz-Iq-RpE"/>
+                    <exclude reference="zAn-lm-30g"/>
+                    <exclude reference="bLk-id-WiO"/>
+                    <exclude reference="xcV-a4-w8x"/>
+                    <exclude reference="PJh-QZ-sXc"/>
+                    <exclude reference="iHN-cS-QLl"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Ciy-LC-pbc"/>
+                    <include reference="wGQ-pC-aYL"/>
+                    <include reference="VRS-1u-fWI"/>
+                    <include reference="1dy-fE-R8a"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="tzr-9v-Xua"/>
+                    <include reference="5cQ-SA-7dc"/>
+                    <include reference="EDz-Iq-RpE"/>
+                    <include reference="zAn-lm-30g"/>
+                    <include reference="bLk-id-WiO"/>
+                    <include reference="xcV-a4-w8x"/>
+                    <include reference="PJh-QZ-sXc"/>
+                    <include reference="iHN-cS-QLl"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

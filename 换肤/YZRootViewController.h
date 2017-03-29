@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YZRootViewController.h
 //  换肤
 //
 //  Created by zhangliangwang on 16/3/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YZRootViewController : UIViewController
 
 @end
-

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		42D0C5141CAC075F00EEB8E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C5131CAC075F00EEB8E7 /* main.m */; };
 		42D0C5171CAC075F00EEB8E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C5161CAC075F00EEB8E7 /* AppDelegate.m */; };
-		42D0C51A1CAC075F00EEB8E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C5191CAC075F00EEB8E7 /* ViewController.m */; };
 		42D0C51D1CAC075F00EEB8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C51B1CAC075F00EEB8E7 /* Main.storyboard */; };
 		42D0C5201CAC075F00EEB8E7 /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C51E1CAC075F00EEB8E7 /* __.xcdatamodeld */; };
 		42D0C5221CAC075F00EEB8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C5211CAC075F00EEB8E7 /* Assets.xcassets */; };
 		42D0C5251CAC075F00EEB8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C5231CAC075F00EEB8E7 /* LaunchScreen.storyboard */; };
+		42D0C5321CAC1C7900EEB8E7 /* YZTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C5301CAC1C7900EEB8E7 /* YZTestViewController.m */; };
+		42D0C5331CAC1C7900EEB8E7 /* YZTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C5311CAC1C7900EEB8E7 /* YZTestViewController.xib */; };
+		42D0C5371CAC1E9B00EEB8E7 /* YZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C5351CAC1E9B00EEB8E7 /* YZRootViewController.m */; };
+		42D0C5381CAC1E9B00EEB8E7 /* YZRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C5361CAC1E9B00EEB8E7 /* YZRootViewController.xib */; };
+		42D0C53C1CAC21B600EEB8E7 /* YZSkinTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0C53B1CAC21B600EEB8E7 /* YZSkinTool.m */; };
+		42D0C53E1CAC2CFD00EEB8E7 /* bgColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C53D1CAC2CFD00EEB8E7 /* bgColor.plist */; };
+		42D0C5401CAC2FA000EEB8E7 /* skin in Resources */ = {isa = PBXBuildFile; fileRef = 42D0C53F1CAC2FA000EEB8E7 /* skin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,21 @@
 		42D0C5131CAC075F00EEB8E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42D0C5151CAC075F00EEB8E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42D0C5161CAC075F00EEB8E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42D0C5181CAC075F00EEB8E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42D0C5191CAC075F00EEB8E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42D0C51C1CAC075F00EEB8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42D0C51F1CAC075F00EEB8E7 /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
 		42D0C5211CAC075F00EEB8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D0C5241CAC075F00EEB8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42D0C5261CAC075F00EEB8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D0C52F1CAC1C7900EEB8E7 /* YZTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTestViewController.h; sourceTree = "<group>"; };
+		42D0C5301CAC1C7900EEB8E7 /* YZTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTestViewController.m; sourceTree = "<group>"; };
+		42D0C5311CAC1C7900EEB8E7 /* YZTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZTestViewController.xib; sourceTree = "<group>"; };
+		42D0C5341CAC1E9B00EEB8E7 /* YZRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZRootViewController.h; sourceTree = "<group>"; };
+		42D0C5351CAC1E9B00EEB8E7 /* YZRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZRootViewController.m; sourceTree = "<group>"; };
+		42D0C5361CAC1E9B00EEB8E7 /* YZRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZRootViewController.xib; sourceTree = "<group>"; };
+		42D0C53A1CAC21B600EEB8E7 /* YZSkinTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSkinTool.h; sourceTree = "<group>"; };
+		42D0C53B1CAC21B600EEB8E7 /* YZSkinTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSkinTool.m; sourceTree = "<group>"; };
+		42D0C53D1CAC2CFD00EEB8E7 /* bgColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bgColor.plist; sourceTree = "<group>"; };
+		42D0C53F1CAC2FA000EEB8E7 /* skin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +76,14 @@
 			children = (
 				42D0C5151CAC075F00EEB8E7 /* AppDelegate.h */,
 				42D0C5161CAC075F00EEB8E7 /* AppDelegate.m */,
-				42D0C5181CAC075F00EEB8E7 /* ViewController.h */,
-				42D0C5191CAC075F00EEB8E7 /* ViewController.m */,
+				42D0C5341CAC1E9B00EEB8E7 /* YZRootViewController.h */,
+				42D0C5351CAC1E9B00EEB8E7 /* YZRootViewController.m */,
+				42D0C5361CAC1E9B00EEB8E7 /* YZRootViewController.xib */,
+				42D0C52F1CAC1C7900EEB8E7 /* YZTestViewController.h */,
+				42D0C5301CAC1C7900EEB8E7 /* YZTestViewController.m */,
+				42D0C5311CAC1C7900EEB8E7 /* YZTestViewController.xib */,
+				42D0C53F1CAC2FA000EEB8E7 /* skin */,
+				42D0C5391CAC216F00EEB8E7 /* Tool */,
 				42D0C51B1CAC075F00EEB8E7 /* Main.storyboard */,
 				42D0C5211CAC075F00EEB8E7 /* Assets.xcassets */,
 				42D0C5231CAC075F00EEB8E7 /* LaunchScreen.storyboard */,
@@ -77,9 +97,19 @@
 		42D0C5121CAC075E00EEB8E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42D0C53D1CAC2CFD00EEB8E7 /* bgColor.plist */,
 				42D0C5131CAC075F00EEB8E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42D0C5391CAC216F00EEB8E7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				42D0C53A1CAC21B600EEB8E7 /* YZSkinTool.h */,
+				42D0C53B1CAC21B600EEB8E7 /* YZSkinTool.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D0C5251CAC075F00EEB8E7 /* LaunchScreen.storyboard in Resources */,
+				42D0C53E1CAC2CFD00EEB8E7 /* bgColor.plist in Resources */,
 				42D0C5221CAC075F00EEB8E7 /* Assets.xcassets in Resources */,
 				42D0C51D1CAC075F00EEB8E7 /* Main.storyboard in Resources */,
+				42D0C5331CAC1C7900EEB8E7 /* YZTestViewController.xib in Resources */,
+				42D0C5381CAC1E9B00EEB8E7 /* YZRootViewController.xib in Resources */,
+				42D0C5401CAC2FA000EEB8E7 /* skin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D0C51A1CAC075F00EEB8E7 /* ViewController.m in Sources */,
 				42D0C5201CAC075F00EEB8E7 /* __.xcdatamodeld in Sources */,
 				42D0C5171CAC075F00EEB8E7 /* AppDelegate.m in Sources */,
 				42D0C5141CAC075F00EEB8E7 /* main.m in Sources */,
+				42D0C53C1CAC21B600EEB8E7 /* YZSkinTool.m in Sources */,
+				42D0C5371CAC1E9B00EEB8E7 /* YZRootViewController.m in Sources */,
+				42D0C5321CAC1C7900EEB8E7 /* YZTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
